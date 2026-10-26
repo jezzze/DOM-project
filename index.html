@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävälista (To-Do List)</title>
+    <!-- Ulkoinen tyylitiedosto -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Tehtävälista</h1>
+        </header>
+
+        <!-- Tehtävän lisäyslomake -->
+        <section class="form-section">
+            <form id="todo-form" novalidate>
+                <div class="input-group">
+                    <label for="task-input">Uusi tehtävä:</label>
+                    <input 
+                        type="text" 
+                        id="task-input" 
+                        placeholder="Kirjoita tehtävä (vähintään 3 merkkiä)..."
+                        autocomplete="off"
+                    >
+                    <!-- Virheilmoituskenttä validointia varten -->
+                    <span id="error-message" class="error-text"></span>
+                </div>
+                <button type="submit" id="add-btn">Lisää tehtävä</button>
+            </form>
+        </section>
+
+        <!-- Suodattimet ja avointen tehtävien laskuri -->
+        <section class="controls-section">
+            <div class="filter-buttons">
+                <button type="button" class="filter-btn active" data-filter="all">Kaikki</button>
+                <button type="button" class="filter-btn" data-filter="active">Kesken</button>
+                <button type="button" class="filter-btn" data-filter="completed">Tehty</button>
+            </div>
+            <div class="counter">
+                Avoimia tehtäviä: <span id="open-count">0</span>
+            </div>
+        </section>
+
+        <!-- Tehtävälista -->
+        <section class="list-section">
+            <ul id="todo-list" class="task-list">
+                <!-- Tehtäväelementit luodaan tään dynamicesti JavaScriptillä -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Ulkoinen JavaScript-tiedosto -->
+    <script src="script.js"></script>
+</body>
+</html>
