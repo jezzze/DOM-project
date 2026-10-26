@@ -12,7 +12,7 @@ Projektin tarkoituksena on luoda helppokäyttöinen ja selkeä selaimessa toimiv
 
 ### Rautalankamalli / luonnos
 
-![Rautalankamalli](images/wireframe.png)'
+![Rautalankamalli](images/Wireframe.png)
 
 ## Verkkolinkit
 
