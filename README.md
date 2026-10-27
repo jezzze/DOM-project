@@ -18,7 +18,7 @@ Projektin tarkoituksena on luoda helppokäyttöinen ja selkeä selaimessa toimiv
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://jezzze.github.io/DOM-project/)
 - **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/jezzze/DOM-project)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **Projektin videoesittely:** [Lisää tähän videon osoite](https://www.youtube.com/watch?v=yUqFgf1lZ24)
 
 ## Tietoja sovelluksesta
 

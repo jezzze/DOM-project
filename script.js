@@ -1,4 +1,4 @@
-// Odotetaan, että DOM-puu on kokonaan ladattu ennen koodin suorittamista
+// Odotetaan, että DOM on kokonaan ladattu ennen koodin suorittamista
 document.addEventListener("DOMContentLoaded", function () {
     
     // HTML-elementtien valinta 
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const openCountElement = document.getElementById("open-count");
     const filterButtons = document.querySelectorAll(".filter-btn");
 
-    // Taulukko tehtäville (ladataan selaimen muistista tai alustetaan tyhjäksi)
+    // Taulukko tehtäville 
     let tasks = [];
     let currentFilter = "all";
 
@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     lataaTehtavatMuistista();
     paivitaNakyma();
 
-    // Tapahtumankuuntelijat (Event Listeners) 
+    // Tapahtumankuuntelijat 
 
-    // Lomakkeen lähetys (uuden tehtävän lisääminen)
+    // Lomakkeen lähetys 
     todoForm.addEventListener("submit", function (tapahtuma) {
         tapahtuma.preventDefault(); // Estetään sivun uudelleenlataus
 
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
         paivitaLaskuri();
     }
 
-    // Vaihtaa tehtävän tilan (valmis / kesken)
+    // Vaihtaa tehtävän tilan 
     function vaihdaTehtavanTila(id) {
         tasks = tasks.map(function (tehtava) {
             if (tehtava.id === id) {
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         paivitaNakyma();
     }
 
-    // Laskee ja päivittää avointen (kesken olevien) tehtävien määrän
+    // Laskee ja päivittää avointen tehtävien määrän
     function paivitaLaskuri() {
         const avoimet = tasks.filter(t => !t.valmis).length;
         openCountElement.textContent = avoimet;
