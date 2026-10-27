@@ -1,7 +1,7 @@
 // Odotetaan, että DOM-puu on kokonaan ladattu ennen koodin suorittamista
 document.addEventListener("DOMContentLoaded", function () {
     
-    // --- HTML-elementtien valinta ---
+    // HTML-elementtien valinta 
     const todoForm = document.getElementById("todo-form");
     const taskInput = document.getElementById("task-input");
     const errorMessage = document.getElementById("error-message");
@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let tasks = [];
     let currentFilter = "all";
 
-    // --- Sovelluksen alustus ---
+    // Sovelluksen alustus
     lataaTehtavatMuistista();
     paivitaNakyma();
 
-    // --- Tapahtumankuuntelijat (Event Listeners) ---
+    // Tapahtumankuuntelijat (Event Listeners) 
 
     // Lomakkeen lähetys (uuden tehtävän lisääminen)
     todoForm.addEventListener("submit", function (tapahtuma) {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // --- Funktiot ---
+    // Funktiot
 
     // Näyttää virheilmoituksen ja korostaa kentän punaisella
     function naytaVirhe(viesti) {

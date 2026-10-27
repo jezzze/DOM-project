@@ -16,16 +16,14 @@ Projektin tarkoituksena on luoda helppokäyttöinen ja selkeä selaimessa toimiv
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
+- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://jezzze.github.io/DOM-project/)
+- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/jezzze/DOM-project)
 - **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
 
 ## Tietoja sovelluksesta
 
 **[Tehtävälista]** on verkkosovellus, joka toimii helppokäyttöisenä ja selkeänä tehtävälistana Sovelluksen tarkoituksena on auttaa käyttäjiä hallitsemaan jokapäiväisiä tehtäviään, seuraamaan niiden edistymistä reaaliaikaisen laskurin avulla sekä suodattamaan tehtäviä tarpeen mukaan suoraan selaimessa.
 ## Teknologiat
-
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
@@ -49,37 +47,21 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 ## Kuvakaappaukset
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
-
-Esimerkki kuvan lisäämisestä:
-
-![Kuvakaappaus sovelluksesta](img/screenshot.png)
+![Kuvakaappaus sovelluksesta](images/screenshot.png)
 
 ## Tunnetut virheet / puutteet
-
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
-
-Jos tunnettuja virheitä ei ole, kirjoita: **Ei tunnettuja virheitä.**
-
-## Työn jakautuminen
-
-*Täytä tämä osio vain, jos teit projektin parityönä.*
-
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+**Ei tunnettuja virheitä.**
 
 ## Oma arvio ja oppimisen reflektointi
 
 Pohdi työtäsi ja oppimisprosessiasi.
 
-- Missä onnistuin?
-- Mikä oli haastavaa?
-- Mitä parantaisin, jos aikaa olisi enemmän?
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-- Oma arvio projektista: **xx/10 pistettä**
+- Missä onnistuin? Onnistuin rakentamaan toimivan to-do listan itse ilman ulkoisia kirjastoja. 
+- Mikä oli haastavaa? Haastavinta oli tilanhallinta natiivilla javascriptillä eli sen varmistaminen että suodattimet, laskurit, tallennus ja dom päivitykset synkronoituvat aina kun tehtäviä lisätään, poistetaan ja merkitään tehdyksi.
+- Mitä parantaisin, jos aikaa olisi enemmän? jos aikaa olisi enemmän lisäisin vielä kyvyn muokata tehtäviä ja ehkä drag and drop tyylisen muokkauksen että voi liikutella tehtäviä listassa.
+- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? HTML: opin luomaan jäsennellyn ja semaattisen lomakkeen sekä listarakenteen suorituskykyisesti. css: opin hyödyntämään css-muuttujia esmi. root:, flexbox asettelua sekä parantamaan ulkonäköä varjoilla ja animaatioilla javascript ja dom: opin addeventlistner, createelement ja filter, map hyödyntämistä käytännön sovelluksessa.
+- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Ei nyt mitään.
+- Oma arvio projektista: **10/10 pistettä**
 
 ## Lähteet ja kiitokset
 
@@ -87,14 +69,12 @@ Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesi
 
 Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
 
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- [Lähteen tai tutoriaalin nimi] Jesse Mitronen
+- [Kuvalähde] Jesse Mitronen
+- Käytetty tekoälytyökalu: Gemini
+  - Miten työkalua käytettiin: korjasin pari kirjoitus virhe erroria.
 
   ## Lisenssi
 
 Tämä projekti on lisensoitu MIT-lisenssillä.
 
-Lisätietoa lisenssin lisäämisestä GitHub-projektiin:
-https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
