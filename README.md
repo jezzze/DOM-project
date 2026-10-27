@@ -16,9 +16,9 @@ Projektin tarkoituksena on luoda helppokäyttöinen ja selkeä selaimessa toimiv
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://jezzze.github.io/DOM-project/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/jezzze/DOM-project)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://www.youtube.com/watch?v=yUqFgf1lZ24)
+- **Julkaistu sovellus:** (https://jezzze.github.io/DOM-project/)
+- **GitHub-repositorio:** (https://github.com/jezzze/DOM-project)
+- **Projektin videoesittely:** (https://www.youtube.com/watch?v=yUqFgf1lZ24)
 
 ## Tietoja sovelluksesta
 
@@ -31,8 +31,6 @@ Projektin tarkoituksena on luoda helppokäyttöinen ja selkeä selaimessa toimiv
 - localStorage – tietojen tallentaminen selaimeen, jotta tehtävät säilyivät sivun uudelleenlatauksen jälkeen.
 
 ## Sovelluksen käyttö
-
-Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 1. Avaa julkaistu sovellus yllä olevasta linkistä.
 2. Täytä lomakkeen kentät.
@@ -50,12 +48,10 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 ![Kuvakaappaus sovelluksesta](images/screenshot.png)
 
 ## Tunnetut virheet / puutteet
+
 **Ei tunnettuja virheitä.**
 
 ## Oma arvio ja oppimisen reflektointi
-
-Pohdi työtäsi ja oppimisprosessiasi.
-
 - Missä onnistuin? Onnistuin rakentamaan toimivan to-do listan itse ilman ulkoisia kirjastoja. 
 - Mikä oli haastavaa? Haastavinta oli tilanhallinta natiivilla javascriptillä eli sen varmistaminen että suodattimet, laskurit, tallennus ja dom päivitykset synkronoituvat aina kun tehtäviä lisätään, poistetaan ja merkitään tehdyksi.
 - Mitä parantaisin, jos aikaa olisi enemmän? jos aikaa olisi enemmän lisäisin vielä kyvyn muokata tehtäviä ja ehkä drag and drop tyylisen muokkauksen että voi liikutella tehtäviä listassa.
@@ -64,11 +60,6 @@ Pohdi työtäsi ja oppimisprosessiasi.
 - Oma arvio projektista: **10/10 pistettä**
 
 ## Lähteet ja kiitokset
-
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
-
 - [Lähteen tai tutoriaalin nimi] Jesse Mitronen
 - [Kuvalähde] Jesse Mitronen
 - Käytetty tekoälytyökalu: Gemini
